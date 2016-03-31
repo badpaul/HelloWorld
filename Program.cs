@@ -15,7 +15,7 @@ namespace SimpleHelloWorld
                args.Length);
             for (int i = 0; i < args.Length; i++)
             {
-                Console.WriteLine("{0}", args[i]);
+                    Console.WriteLine("Argument {0}", args[i]);
             }
             Console.ReadKey();
         }
