@@ -10,6 +10,8 @@ namespace SimpleHelloWorld
     {
         static void Main(string[] args)
         {
+            var unusedVariable = 99;
+
             Console.WriteLine("Hello, World!");
             Console.WriteLine("You entered the following {0} command line arguments:",
                args.Length);
@@ -18,6 +20,14 @@ namespace SimpleHelloWorld
                     Console.WriteLine("Argument {0}", args[i]);
             }
             Console.ReadKey();
+        }
+    }
+
+    class Another
+    {
+        static void Test()
+        {
+            throw new NotImplementedException("you lose");
         }
     }
 }
