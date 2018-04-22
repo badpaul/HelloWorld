@@ -10,7 +10,7 @@ namespace SimpleHelloWorld
     {
         static void Main(string[] args)
         {
-            var unusedVariable = 102;
+            var unusedVariable = 103;
 
             Console.WriteLine("Hello, World!");
             Console.WriteLine("You entered the following {0} command line arguments:",
